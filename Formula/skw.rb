@@ -1,8 +1,8 @@
 class Skw < Formula
   desc "Tool making cloud object storage as a artifact repository"
   homepage "https://github.com/Kesin11/SkyWarehouse"
-  url "https://github.com/Kesin11/SkyWarehouse/releases/download/v0.1.0-beta.1/skw.jar"
-  sha256 "2109b9e1e75c443bfc8095ea027e130e6a343b76ce50ac56d59e36cc42ddf5de"
+  url "https://github.com/Kesin11/SkyWarehouse/releases/download/v0.1.2/skw.jar"
+  sha256 "4973ed7050d1bd72d73fb8b10d889727985a894f7c3bd1f7092a138520764f77"
   license "MIT"
 
   bottle :unneeded
