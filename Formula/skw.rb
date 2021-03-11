@@ -15,6 +15,6 @@ class Skw < Formula
   end
 
   test do
-    assert_match "Usage: Sky Warehouse options_list", shell_output("#{bin}/skw --help")
+    assert_match "Usage: SkyWarehouse", shell_output("#{bin}/skw --help")
   end
 end
