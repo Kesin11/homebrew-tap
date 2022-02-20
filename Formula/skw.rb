@@ -5,9 +5,7 @@ class Skw < Formula
   sha256 "896e57472cd54650ca5ca12c884c9c44d899ed495e5d7a3e9b5e8669c5a2c742"
   license "MIT"
 
-  bottle :unneeded
-
-  depends_on "openjdk@8" => :recommended
+  depends_on "openjdk@11" => :recommended
 
   def install
     libexec.install "skw.jar"
