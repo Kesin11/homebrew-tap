@@ -1,13 +1,11 @@
 class Skw < Formula
   desc "Tool making cloud object storage as a artifact repository"
   homepage "https://github.com/Kesin11/SkyWarehouse"
-  url "https://github.com/Kesin11/SkyWarehouse/releases/download/v0.1.2/skw.jar"
-  sha256 "4973ed7050d1bd72d73fb8b10d889727985a894f7c3bd1f7092a138520764f77"
+  url "https://github.com/Kesin11/SkyWarehouse/releases/download/v0.2.0/skw.jar"
+  sha256 "896e57472cd54650ca5ca12c884c9c44d899ed495e5d7a3e9b5e8669c5a2c742"
   license "MIT"
 
-  bottle :unneeded
-
-  depends_on "openjdk@8" => :recommended
+  depends_on "openjdk@11" => :recommended
 
   def install
     libexec.install "skw.jar"
